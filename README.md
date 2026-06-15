@@ -18,17 +18,6 @@ Implemented components include:
 * Residual Connections
 * Attention Masking
 
-## Project Structure
-
-```text
-.
-├── attention.py
-├── encoder.py
-├── decoder.py
-├── transformer.py
-├── positional_encoding.py
-└── README.md
-```
 
 ## Architecture
 
