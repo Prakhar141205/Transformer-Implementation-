@@ -5,6 +5,13 @@ from einops import rearrange
 
 
 class MultiHeadAttention(nn.Module):
+    """
+    Multi-Head Attention module used in Transformer architectures.
+
+    Projects inputs into query, key, and value representations,
+    computes scaled dot-product attention across multiple heads,
+    and combines the resulting context vectors.
+    """
     def __init__(self, embedd_dim, n_heads, bias=False ) -> None:
        
       super().__init__()
